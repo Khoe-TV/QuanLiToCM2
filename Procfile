@@ -1,0 +1,1 @@
+web: gunicorn QuanLiToCM2.wsgi
