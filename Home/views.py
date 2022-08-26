@@ -6,4 +6,5 @@ def index (request):
     response = HttpResponse()
     response.writelines('<h1>Le Thanh Khoe</h1>')
     response.write('Day la app Home')
+    response.write('<h2>Second update</h2>')
     return response
